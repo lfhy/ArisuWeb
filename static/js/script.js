@@ -1,5 +1,5 @@
 var LANGUAGES = {
-    "_": { defaultLanguage: "en", defaultVOLanguage: "ja" },
+    "_": { defaultLanguage: "cn", defaultVOLanguage: "cn" },
     "en": {
         audioList: [
             // TODO audio random weight
@@ -43,7 +43,7 @@ var LANGUAGES = {
             "audio/cn/要坏掉了.mp3"
         ],
         texts: {
-            "page-title": "Welcome to Aris",
+            "page-title": "Welcoem to 邦卡卡邦",
             "doc-title": "邦卡卡邦",
             "page-descriptions": "给爱丽丝酱写的小网站，对，就是那个最可爱的《蔚蓝档案》角色！",
             "counter-descriptions": ["爱丽丝已经“邦卡卡邦！”了", "爱丽丝已经摇了"],
@@ -523,7 +523,7 @@ const progress = [0, 1];
 
     function showOptions() {
         mdui.dialog({
-            title: 'Options',
+            title: '配置',
             content: `<div style="min-height: 350px;" class="mdui-typo">
     <table style="width:100%">
         <tr>
